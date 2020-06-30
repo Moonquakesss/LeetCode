@@ -25,7 +25,7 @@ public class Soultion322 {
             if (sub >= 0 && sub < min)
                 min = 1 + sub;
         }
-        demo[amount] = min == Integer.MAX_VALUE? -1 : min; //之前写在for里面 超时
+        demo[amount] = min == Integer.MAX_VALUE? -1 : min; //之前写在for里面  超时
         return demo[amount];
     }
 }
